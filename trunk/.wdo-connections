@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections:connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:connections="http://www.ibm.com/websphere/wdo/connections">
+  <connection id="New MySQL">
+    <development xsi:type="connections:rsc-live-connection" id="New MySQL_dev" name="New MySQL"/>
+    <runtime xsi:type="connections:driver-manager-connection" auto-deploy="true" class-location="C:\Program Files (x86)\MySQL\Connector J 8.0\mysql-connector-java-8.0.17.jar" id="New MySQL_runtime" class-name="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:3306/emeseii" userid="root"/>
+  </connection>
+</connections:connections>
